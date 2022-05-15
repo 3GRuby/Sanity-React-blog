@@ -2,7 +2,7 @@ import sanityClient from '../../client.js';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-/* CLIENT DOUBLE CHECK */
+
 function Blog() {
   const [posts, setPosts] = useState([]);
 

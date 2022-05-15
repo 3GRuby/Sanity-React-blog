@@ -1,9 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import Home from './components/pages/Home'
-import Blog from './components/pages/Blog'
-import SinglePost from './components/pages/SinglePost'
-import Error from './components/pages/Error'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/pages/Home';
+import Blog from './components/pages/Blog';
+import SinglePost from './components/pages/SinglePost';
+import Error from './components/pages/Error';
 function App() {
   return (
     <>
@@ -17,7 +17,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
